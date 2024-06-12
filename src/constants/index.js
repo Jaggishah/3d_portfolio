@@ -24,9 +24,12 @@ import {
     tailwindcss,
     threads,
     typescript,
-    lucid
+    lucid,
+    aws
+    
 } from "../assets/icons";
 import services from "../assets/icons/oservices.jpg";
+
 export const skills = [
     {
         imageUrl: css,
@@ -107,6 +110,11 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
+    },
+    {
+        imageUrl : aws,
+        name: "AWS",
+        type: "Deployment"
     }
 ];
 
@@ -116,14 +124,40 @@ export const experiences = [
         company_name: "Lucid",
         icon: lucid,
         iconBg: "#accbe1",
-        date: "Aug 2022 - Presents",
+        date: "July 2023 - Presents",
         points: [
-            "Developing and maintaining web applications using React.js,Redux and other related technologies.",
-            "Restful API's with FastAPI Framework from python",
-            "Created Ton of automatin Scripts to increased the productivity",
+            "Leveraging React, Redux, SCSS, and Material-UI, I crafted a dynamic frontend with seamless user experience, efficient state management, and polished design, meeting project goals effectively that increased interaction by 40%.",
+            "Integrated code repositories with CI/CD pipelines to trigger automated builds upon code commits under Gitlab Runners.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Integrating FastAPI for Python-based endpoints and Node.js for server-side logic, I established a robust backend infrastructure, ensuring seamless communication with the frontend and efficient data processing..",
+            "Employing AWS EC2 for scalable computing power, S3 for reliable storage, and API Gateway for seamless API management, I architected a resilient and scalable backend infrastructure.",
+            "Implementing microservices architecture on the frontend using Webpack, modularized the application into independent,reusable components, enhancing maintainability and scalability.",
+            "By harnessing the power of Three.js, I constructed a captivating 3D component, enriching the user experience with immersive visuals and interactivity, elevating the frontend to new dimensions of engagement and creativity."
+        ],
+    },
+    {
+        title: "Software Engineer",
+        company_name: "Dew Software",
+        icon: typescript,
+        iconBg: "#b7e4c7",
+        date: "Aug 2022 - July 2023",
+        points: [
+            "Developing Python scripts for car tracking and leveraging Python Tkinter library, I crafted a custom graphical user interface (GUI) that streamlined the monitoring process, offering a user-friendly interface for real-time tracking and management of vehicles, enhancing efficiency and control in the tracking system. ",
+            "Constructing a React dashboard for graph implementation with a third-party library boosted efficiency by an impressive 40%, offering users streamlined access to insightful analytics and empowering decision-making through intuitive graphical representations",
+            "Implementing Python-based automation with a RESTful API for user interactions dramatically improved performance, especially in daily report generation. This solution optimised calculation processes, providing users with swift access to accurate data, thereby enhancing efficiency and productivity.",
+            "Developing  web applications using React.js with redux state mangement system",
+            "Developing full stack app with pyhton as backend"
+        ],
+    },
+    {
+        title: "Software Engineer",
+        company_name: "Smartwinz Solutions",
+        icon: typescript,
+        iconBg: "#b7e4c7",
+        date: "Aug 2022 - July 2023",
+        points: [
+            "Crafting an ecommerce platform with the React framework, we're leveraging its powerful capabilities to build dynamic, user-friendly interfaces that enhance the shopping experience. Through React's component-based architecture and state management.",
+            "Handled server management for hosting client websites, ensuring configurations, security, and performance optimizations",
         ],
     },
     {
@@ -133,21 +167,10 @@ export const experiences = [
         iconBg: "#fbc3bc",
         date: "Jan 2021 - Jun 2021",
         points: [
-            "Leraned industy standard and get knowledge how industy works these days.",
-            "Acquire Knowledge of HTML,CSS and Javascipt",
+            "Leveraged HTML, CSS, and JavaScript for front-end web development, with experience in Java for backend development. Skilled in creating responsive and interactive web applications to deliver exceptional user experiences."
         ],
     },
-    {
-        title: "Freelance",
-        company_name: "Self-Employed",
-        icon: typescript,
-        iconBg: "#b7e4c7",
-        date: "Jan 2021 - present",
-        points: [
-            "Developing  web applications using React.js with redux state mangement system",
-            "Developing full stack app with pyhton as backend"
-        ],
-    },
+   
    
 ];
 
@@ -173,16 +196,16 @@ export const projects = [
     {
         iconUrl: nodejs,
         theme: 'btn-back-red',
-        name: 'Backend Depplymnet',
-        description: 'Developed a Backend For Web Appication ',
-        link: 'https://github.com/Jaggishah/Express_mongoose',
+        name: 'Complete Backend Nodejs App',
+        description: 'Developed a Backend For Web Appication with a oauth ',
+        link: 'https://github.com/Jaggishah/Nodejs_OAuth',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Shopping Cart',
-        description: 'Created a Shopping Cart to get to know ogiv behind shopping carts',
-        link: 'https://github.com/Jaggishah/Shopping-cart',
+        name: 'Pokemon App',
+        description: 'Created aPokemon App using react and redux state management tool with tailwind css',
+        link: 'https://github.com/Jaggishah/Pokemon-App',
     },
     {
         iconUrl: car,
@@ -198,5 +221,20 @@ export const projects = [
         description: 'Allowing Users to share text Messages',
         link: 'https://github.com/Jaggishah/Python_Chatapp',
     },
+    {
+        iconUrl: aws,
+        theme: 'btn-back-pink',
+        name: 'AWS Mini Projects',
+        description: 'AWS Deployment',
+        link: 'https://github.com/Jaggishah/AWS_PROJECTS',
+    },
+    {
+        iconUrl: github,
+        theme: 'btn-back-blue',
+        name: 'React Native',
+        description: 'A Simple reactNative video sharing app',
+        link: 'https://github.com/Jaggishah/ReactNative_Aora',
+    },
+   
  
 ];
