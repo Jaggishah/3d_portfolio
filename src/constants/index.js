@@ -126,27 +126,28 @@ export const experiences = [
         iconBg: "#accbe1",
         date: "July 2023 - Presents",
         points: [
-            "Leveraging React, Redux, SCSS, and Material-UI, I crafted a dynamic frontend with seamless user experience, efficient state management, and polished design, meeting project goals effectively that increased interaction by 40%.",
-            "Integrated code repositories with CI/CD pipelines to trigger automated builds upon code commits under Gitlab Runners.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Integrating FastAPI for Python-based endpoints and Node.js for server-side logic, I established a robust backend infrastructure, ensuring seamless communication with the frontend and efficient data processing..",
-            "Employing AWS EC2 for scalable computing power, S3 for reliable storage, and API Gateway for seamless API management, I architected a resilient and scalable backend infrastructure.",
-            "Implementing microservices architecture on the frontend using Webpack, modularized the application into independent,reusable components, enhancing maintainability and scalability.",
-            "By harnessing the power of Three.js, I constructed a captivating 3D component, enriching the user experience with immersive visuals and interactivity, elevating the frontend to new dimensions of engagement and creativity."
-        ],
-    },
+        "Developed and maintained a diagnostic web platform using React, Redux, and SCSS, increasing system efficiency by 40%.",
+        "Designed real-time diagnostic solutions using FastAPI (Python) and Node.js, reducing latency by 25%.",
+        "Built highly scalable microservices architectures leveraging AWS (EC2, S3, API Gateway, Lambda) to support rapid user growth.",
+        "Enhanced application security by implementing OAuth, JWT authentication, and role-based access control (RBAC).",
+        "Automated CI/CD pipelines with GitLab Runners, improving deployment efficiency by 30%.",
+        "Engineered 3D visualizations using Three.js and React Three Fiber, increasing engagement by 40%.",
+        "Developed and maintained a real-time tracking system leveraging AWS SQS, Lambda, and WebSockets, enabling instant updates with minimal latency.",
+        "Designed and implemented a micro-frontend architecture leveraging Webpack Module Federation, enabling independent deployment and seamless integration of multiple frontend applications."
+    ]
     {
-        title: "Software Engineer",
+        title: "Full Stack Developer",
         company_name: "Dew Software",
         icon: typescript,
         iconBg: "#b7e4c7",
         date: "Aug 2022 - July 2023",
         points: [
             "Developing Python scripts for car tracking and leveraging Python Tkinter library, I crafted a custom graphical user interface (GUI) that streamlined the monitoring process, offering a user-friendly interface for real-time tracking and management of vehicles, enhancing efficiency and control in the tracking system. ",
-            "Constructing a React dashboard for graph implementation with a third-party library boosted efficiency by an impressive 40%, offering users streamlined access to insightful analytics and empowering decision-making through intuitive graphical representations",
-            "Implementing Python-based automation with a RESTful API for user interactions dramatically improved performance, especially in daily report generation. This solution optimised calculation processes, providing users with swift access to accurate data, thereby enhancing efficiency and productivity.",
-            "Developing  web applications using React.js with redux state mangement system",
-            "Developing full stack app with pyhton as backend"
+                "Designed a React-based diagnostic dashboard integrating third-party graphing libraries, improving analytics accessibility by 40%.",
+                "Developed a Python-based automation system with a Tkinter GUI for real-time car diagnostics, boosting operational efficiency by 35%.",
+                "Built RESTful APIs to optimize user interactions and improve data processing speeds.",
+                "Developed a Python-based GUI application using PyQt/Tkinter for managing OTA API dashboards, integrating WebSockets for real-time synchronization and Pandas with SQLAlchemy for data management and reporting, streamlining fleet operations and reducing manual tracking efforts."
+            
         ],
     },
     {
@@ -158,10 +159,13 @@ export const experiences = [
         points: [
             "Crafting an ecommerce platform with the React framework, we're leveraging its powerful capabilities to build dynamic, user-friendly interfaces that enhance the shopping experience. Through React's component-based architecture and state management.",
             "Handled server management for hosting client websites, ensuring configurations, security, and performance optimizations",
+                "Developed an eCommerce platform using React and Next.js, enhancing customer engagement and sales.",
+                "Managed server configurations, security, and performance optimizations for multiple client platforms."
+        
         ],
     },
     {
-        title: "Intership Trainee",
+        title: "Web Developer",
         company_name: "O7 Services",
         icon: services,
         iconBg: "#fbc3bc",
@@ -196,6 +200,14 @@ export const projects = [
     {
         iconUrl: nodejs,
         theme: 'btn-back-red',
+        name: 'Complete Mangement System',
+        description: 'A management for like jira ticket with drag and drop functionality using postgressql',
+        link: ' https://github.com/Jaggishah/ProjectManagement',
+    },
+   
+    {
+        iconUrl: nodejs,
+        theme: 'btn-back-red',
         name: 'Complete Backend Nodejs App',
         description: 'Developed a Backend For Web Appication with a oauth ',
         link: 'https://github.com/Jaggishah/Nodejs_OAuth',
@@ -207,6 +219,22 @@ export const projects = [
         description: 'Created aPokemon App using react and redux state management tool with tailwind css',
         link: 'https://github.com/Jaggishah/Pokemon-App',
     },
+    {
+        iconUrl: threads,
+        theme: 'btn-back-green',
+        name: 'AI Saas App',
+        description: 'Created aAI Saas App using convex with tailwind css',
+        link: 'https://github.com/Jaggishah/AITestEdenAI',
+    },
+    {
+        iconUrl: threads,
+        theme: 'btn-back-green',
+        name: 'React Native App',
+        description: 'React Native App with CLI',
+        link: 'https://github.com/Jaggishah/JaggiMusicApp',
+        
+    },
+    
     {
         iconUrl: car,
         theme: 'btn-back-blue',
