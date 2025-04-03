@@ -134,7 +134,7 @@ export const experiences = [
         "Engineered 3D visualizations using Three.js and React Three Fiber, increasing engagement by 40%.",
         "Developed and maintained a real-time tracking system leveraging AWS SQS, Lambda, and WebSockets, enabling instant updates with minimal latency.",
         "Designed and implemented a micro-frontend architecture leveraging Webpack Module Federation, enabling independent deployment and seamless integration of multiple frontend applications."
-    ]
+    ]},
     {
         title: "Full Stack Developer",
         company_name: "Dew Software",
